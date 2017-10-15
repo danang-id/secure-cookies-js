@@ -1,0 +1,15 @@
+{
+  "name": "secure-cookies",
+  "version": "1.0.0",
+  "description": "Easily manage session cookies with secure manner using SimpleCryptoJS.",
+  "main": "cookies.js",
+  "homepage": "https://github.com/danang-id/secure-cookies",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "simple-crypto-js": "^1.0.0",
+  },
+  "author": "Danang Galuh Tegar Prasetyo",
+  "license": "MIT"
+}
