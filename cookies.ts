@@ -214,8 +214,15 @@ export default class SecureCookies {
 	flush() {
 		return SecureCookies.execute(this, 
 		() => {
-			this.setOption('expires', 'Thu, 01-Jan-1970 00:00:01 GMT');
 			this.store({});
+		});
+	}
+
+	regenerate() {
+		return SecureCookies.execute(this, 
+		() => {
+			this.setOption('expires', 'Thu, 01-Jan-1970 00:00:01 GMT');
+			this.flush();
 			this.resetOptions();
         });
 	}

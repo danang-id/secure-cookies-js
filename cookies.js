@@ -240,8 +240,14 @@ var SecureCookies = /** @class */ (function () {
     SecureCookies.prototype.flush = function () {
         var _this = this;
         return SecureCookies.execute(this, function () {
-            _this.setOption('expires', 'Thu, 01-Jan-1970 00:00:01 GMT');
             _this.store({});
+        });
+    };
+    SecureCookies.prototype.regenerate = function () {
+        var _this = this;
+        return SecureCookies.execute(this, function () {
+            _this.setOption('expires', 'Thu, 01-Jan-1970 00:00:01 GMT');
+            _this.flush();
             _this.resetOptions();
         });
     };
