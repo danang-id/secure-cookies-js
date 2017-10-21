@@ -1,6 +1,6 @@
 {
   "name": "secure-cookies-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily manage session cookies with secure manner using SimpleCryptoJS.",
   "main": "cookies.js",
   "homepage": "https://github.com/danang-id/secure-cookies-js",
