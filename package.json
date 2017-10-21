@@ -1,9 +1,9 @@
 {
-  "name": "secure-cookies",
+  "name": "secure-cookies-js",
   "version": "1.0.0",
   "description": "Easily manage session cookies with secure manner using SimpleCryptoJS.",
   "main": "cookies.js",
-  "homepage": "https://github.com/danang-id/secure-cookies",
+  "homepage": "https://github.com/danang-id/secure-cookies-js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
